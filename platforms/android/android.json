@@ -1,0 +1,85 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "res/xml/config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"Whitelist\"><param name=\"android-package\" value=\"org.apache.cordova.whitelist.WhitelistPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        }
+                    ],
+                    "widget": [
+                        {
+                            "xml": "<feature name=\"ApiAIPlugin\"><param name=\"android-package\" value=\"ai.api.ApiAiPlugin\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"ApiAIPlugin\"><param name=\"android-package\" value=\"ai.api.ApiAiPlugin\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "AndroidManifest.xml": {
+                "parents": {
+                    "/manifest": [
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.INTERNET\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.RECORD_AUDIO\" />",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.nicknovikov.test.apiai"
+        },
+        "cordova-plugin-apiai": {
+            "PACKAGE_NAME": "com.nicknovikov.test.apiai"
+        }
+    },
+    "dependent_plugins": {},
+    "modules": [
+        {
+            "file": "plugins/cordova-plugin-whitelist/whitelist.js",
+            "id": "cordova-plugin-whitelist.whitelist",
+            "runs": true
+        },
+        {
+            "file": "plugins/cordova-plugin-apiai/www/lib/q.js",
+            "id": "cordova-plugin-apiai.Q",
+            "runs": true
+        },
+        {
+            "file": "plugins/cordova-plugin-apiai/www/ApiAIPlugin.js",
+            "id": "cordova-plugin-apiai.ApiAIPlugin",
+            "clobbers": [
+                "window.ApiAIPlugin"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-apiai/www/ApiAIPromises.js",
+            "id": "cordova-plugin-apiai.ApiAIPromises",
+            "clobbers": [
+                "window.ApiAIPromises"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+D:\Freelance\cordova\apiai\platforms\windows\CordovaApp.Phone.jsproj;neutral

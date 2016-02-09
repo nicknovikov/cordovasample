@@ -1,0 +1,17 @@
+d:\Freelance\cordova\apiai\platforms\windows\build\windows\debug\anycpu\win8.1\resources.pri
+d:\Freelance\cordova\apiai\platforms\windows\build\windows\debug\anycpu\win8.1\AppxManifest.xml
+d:\Freelance\cordova\apiai\platforms\windows\build\windows\debug\anycpu\win8.1\CordovaApp.Windows.build.appxrecipe
+d:\Freelance\cordova\apiai\platforms\windows\build\windows\bld\priconfig.xml
+d:\Freelance\cordova\apiai\platforms\windows\build\windows\bld\priconfig.xml.intermediate
+d:\Freelance\cordova\apiai\platforms\windows\build\windows\bld\layout.resfiles
+d:\Freelance\cordova\apiai\platforms\windows\build\windows\bld\layout.resfiles.intermediate
+d:\Freelance\cordova\apiai\platforms\windows\build\windows\bld\resources.resfiles
+d:\Freelance\cordova\apiai\platforms\windows\build\windows\bld\resources.resfiles.intermediate
+d:\Freelance\cordova\apiai\platforms\windows\build\windows\bld\pri.resfiles
+d:\Freelance\cordova\apiai\platforms\windows\build\windows\bld\pri.resfiles.intermediate
+d:\Freelance\cordova\apiai\platforms\windows\build\windows\bld\qualifiers.txt
+d:\Freelance\cordova\apiai\platforms\windows\build\windows\bld\qualifiers.txt.intermediate
+d:\Freelance\cordova\apiai\platforms\windows\build\windows\bld\MultipleQualifiersPerDimensionFound.txt
+d:\Freelance\cordova\apiai\platforms\windows\build\windows\bld\ProjectArchitectures.txt
+d:\Freelance\cordova\apiai\platforms\windows\build\windows\bld\package.map.txt
+d:\Freelance\cordova\apiai\platforms\windows\build\windows\bld\_pkginfo.txt

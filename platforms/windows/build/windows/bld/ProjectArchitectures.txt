@@ -1,0 +1,1 @@
+d:\Freelance\cordova\apiai\platforms\windows\CordovaApp.Windows.jsproj;neutral

@@ -1,0 +1,42 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-apiai": {
+            "PACKAGE_NAME": "ApiAI"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "ApiAI"
+        }
+    },
+    "dependent_plugins": {},
+    "modules": [
+        {
+            "file": "plugins/cordova-plugin-apiai/www/lib/q.js",
+            "id": "cordova-plugin-apiai.Q",
+            "pluginId": "cordova-plugin-apiai",
+            "runs": true
+        },
+        {
+            "file": "plugins/cordova-plugin-apiai/www/ApiAIPlugin.js",
+            "id": "cordova-plugin-apiai.ApiAIPlugin",
+            "pluginId": "cordova-plugin-apiai",
+            "clobbers": [
+                "window.ApiAIPlugin"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-apiai/www/ApiAIPromises.js",
+            "id": "cordova-plugin-apiai.ApiAIPromises",
+            "pluginId": "cordova-plugin-apiai",
+            "clobbers": [
+                "window.ApiAIPromises"
+            ]
+        }
+    ]
+}
