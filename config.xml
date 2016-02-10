@@ -1,14 +1,28 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.nicknovikov.test.apiai" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget
+    id="com.nicknovikov.test.apiai"
+    version="0.0.1"
+    xmlns="http://www.w3.org/ns/widgets"    
+    xmlns:cdv="http://cordova.apache.org/ns/1.0">
+
     <name>ApiAI</name>
+
     <description>
         A sample speech recognition app based on Api.ai SDK.
     </description>
+
     <author email="imero@yandex.ru" href="http://nicknovikov.com">
         Nick Novikov
     </author>
+
     <content src="index.html" />
+
+    <!-- Tell PhoneGap to build only iOS -->
+    <platform name="ios" />
+
     <plugin name="cordova-plugin-whitelist" spec="1" />
+    <plugin name="ai.api.apiaiplugin" spec="1.3.1" source="pgb" />
+
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
